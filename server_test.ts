@@ -1,7 +1,7 @@
 import {
 	assertEquals, assertNotEquals,
 } from "https://deno.land/std@0.83.0/testing/asserts.ts";
-import { delay } from "https://deno.land/std@0.53.0/async/delay.ts";
+import { delay } from "https://deno.land/std@0.83.0/async/delay.ts";
 import {
 	connectWebSocket,
 	WebSocket,
